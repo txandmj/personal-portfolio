@@ -1,0 +1,28 @@
+import React from 'react';
+import { portfolioData } from '../data/portfolioData';
+
+const Hero = () => {
+    return (
+        <section className="flex flex-col md:flex-row items-center justify-center text-center md:text-left mb-24">
+            <div className="md:w-1/2 mb-10 md:mb-0">
+                <h1 className="text-5xl font-bold text-gray-900 mb-4">{portfolioData.personal.title}</h1>
+                <p className="text-lg text-gray-600 mb-8 max-w-xl mx-auto md:mx-0">
+                    {portfolioData.personal.description}
+                </p>
+                <div className="flex justify-center md:justify-start space-x-4">
+                    <a href="#contact" className="bg-indigo-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-indigo-700 transition duration-300">Get in Touch</a>
+                    <a href="#software" className="bg-white text-gray-700 px-6 py-3 rounded-lg font-semibold border border-gray-300 hover:bg-gray-100 transition duration-300">View Projects</a>
+                </div>
+            </div>
+            <div className="md:w-1/2 flex justify-center">
+                <img 
+                    src={portfolioData.personal.photo} 
+                    alt={portfolioData.personal.name} 
+                    className="rounded-full shadow-2xl w-64 h-64 md:w-80 md:h-80 object-cover" 
+                />
+            </div>
+        </section>
+    );
+};
+
+export default Hero;
