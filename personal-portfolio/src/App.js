@@ -2,6 +2,7 @@ import React from 'react';
 import {
     Header,
     Hero,
+    Navigation,
     BiologyExperience,
     SoftwareEngineering,
     Contact,
@@ -15,10 +16,13 @@ function App() {
             
             <main className="container mx-auto px-6 py-16">
                 <Hero />
-                <BiologyExperience />
-                <SoftwareEngineering />
+                <Navigation />
                 <Contact />
             </main>
+            
+            {/* Detailed Sections */}
+            <BiologyExperience />
+            <SoftwareEngineering />
 
             <Footer />
         </div>

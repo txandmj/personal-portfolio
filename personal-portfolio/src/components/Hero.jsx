@@ -11,7 +11,6 @@ const Hero = () => {
                 </p>
                 <div className="flex justify-center md:justify-start space-x-4">
                     <a href="#contact" className="bg-indigo-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-indigo-700 transition duration-300">Get in Touch</a>
-                    <a href="#software" className="bg-white text-gray-700 px-6 py-3 rounded-lg font-semibold border border-gray-300 hover:bg-gray-100 transition duration-300">View Projects</a>
                 </div>
             </div>
             <div className="md:w-1/2 flex justify-center">

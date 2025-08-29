@@ -1,26 +1,33 @@
 export const portfolioData = {
     personal: {
-        name: "Jane Doe",
+        name: "Xin Tang",
         title: "Bridging Biology & Code",
         description: "A scientist and developer passionate about leveraging technology to solve complex biological problems. From wet lab to web app, I build innovative solutions.",
         photo: "https://placehold.co/400x400/E2E8F0/4A5568?text=Your+Photo",
-        email: "jane.doe@example.com"
+        email: "tangx10@uci.edu"
     },
 
     publications: [
         {
-            title: "A Novel Gene Editing Technique for Neurological Disorders",
-            authors: "Doe, J., Smith, A., et al.",
-            year: "2023",
-            journal: "Nature Biotechnology",
-            link: "#"
+            title: "Discovery of Cell Number-Interstitial Fluid Volume (CIF) Ratio Reveals Secretory Autophagy Pathway to Supply eHsp90α for Wound Healing",
+            authors: "Chang, C., Tang, X., et al.",
+            year: "2024",
+            journal: "Cells",
+            link: "https://www.mdpi.com/2073-4409/13/15/1280"
         },
         {
-            title: "Proteomic Analysis of Cancer Cell Metabolism",
-            authors: "Doe, J., Johnson, B., et al.",
-            year: "2021",
-            journal: "Cell Reports",
-            link: "#"
+            title: "Previously unrecognized and potentially consequential challenges facing Hsp90 inhibitors in cancer clinical trials",
+            authors: "Chang, C., Tang, X., et al.",
+            year: "2024",
+            journal: "Cell Stress and Chaperones",
+            link: "https://www.sciencedirect.com/science/article/pii/S1355814524001135"
+        },
+        {
+            title: "The Distinct Assignments for Hsp90α and Hsp90β: More Than Skin Deep. Cells.",
+            authors: "Chang, C., Tang, X., et al.",
+            year: "2023",
+            journal: "Cells",
+            link: "https://www.mdpi.com/2073-4409/12/12/1568"
         }
     ],
 
@@ -63,7 +70,7 @@ export const portfolioData = {
     ],
 
     social: [
-        { name: "mail", link: "mailto:jane.doe@example.com" },
+        { name: "mail", link: "mailto:tangx10@uci.edu" },
         { name: "linkedin", link: "#" },
         { name: "github", link: "#" }
     ]
