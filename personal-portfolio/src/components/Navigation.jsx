@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Icon from './Icons';
 
 const Navigation = () => {
@@ -19,21 +20,21 @@ const Navigation = () => {
                         </p>
                         <div className="space-y-3 mb-6">
                             <div className="flex items-center text-sm text-gray-500">
-                                <Icon name="book-open" className="w-4 h-4 mr-2 text-indigo-500" />
-                                <span>3 Publications</span>
+                                <Icon name="book-open" className="w-4 h-4 mr-4 text-indigo-500" />
+                                <span>12 Publications</span>
                             </div>
                             <div className="flex items-center text-sm text-gray-500">
-                                <Icon name="microscope" className="w-4 h-4 mr-2 text-indigo-500" />
-                                <span>6 Key Techniques</span>
+                                <Icon name="microscope" className="w-4 h-4 mr-4 text-indigo-500" />
+                                <span>15 Key Techniques</span>
                             </div>
                         </div>
-                        <a 
-                            href="#biology" 
+                        <Link 
+                            to="/biology" 
                             className="inline-flex items-center text-indigo-600 font-semibold hover:text-indigo-700 transition-colors duration-300"
                         >
                             Explore Biology Experience
                             <Icon name="code" className="w-4 h-4 ml-2" />
-                        </a>
+                        </Link>
                     </div>
                 </div>
 
@@ -49,21 +50,21 @@ const Navigation = () => {
                         </p>
                         <div className="space-y-3 mb-6">
                             <div className="flex items-center text-sm text-gray-500">
-                                <Icon name="code" className="w-4 h-4 mr-2 text-indigo-500" />
+                                <Icon name="code" className="w-4 h-4 mr-4 text-indigo-500" />
                                 <span>3 Projects</span>
                             </div>
                             <div className="flex items-center text-sm text-gray-500">
-                                <Icon name="cpu" className="w-4 h-4 mr-2 text-indigo-500" />
+                                <Icon name="cpu" className="w-4 h-4 mr-4 text-indigo-500" />
                                 <span>8 Skills</span>
                             </div>
                         </div>
-                        <a 
-                            href="#software" 
+                        <Link 
+                            to="/cs" 
                             className="inline-flex items-center text-indigo-600 font-semibold hover:text-indigo-700 transition-colors duration-300"
                         >
                             Explore Software Projects
                             <Icon name="code" className="w-4 h-4 ml-2" />
-                        </a>
+                        </Link>
                     </div>
                 </div>
             </div>
@@ -72,3 +73,4 @@ const Navigation = () => {
 };
 
 export default Navigation;
+

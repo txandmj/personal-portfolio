@@ -9,9 +9,6 @@ const Hero = () => {
                 <p className="text-lg text-gray-600 mb-8 max-w-xl mx-auto md:mx-0">
                     {portfolioData.personal.description}
                 </p>
-                <div className="flex justify-center md:justify-start space-x-4">
-                    <a href="#contact" className="bg-indigo-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-indigo-700 transition duration-300">Get in Touch</a>
-                </div>
             </div>
             <div className="md:w-1/2 flex justify-center">
                 <img 

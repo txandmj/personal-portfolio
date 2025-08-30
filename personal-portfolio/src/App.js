@@ -1,31 +1,28 @@
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import {
     Header,
-    Hero,
-    Navigation,
-    BiologyExperience,
-    SoftwareEngineering,
-    Contact,
+    Home,
+    BiologyPage,
+    ComputerSciencePage,
     Footer
 } from './components';
 
 function App() {
     return (
-        <div id="top" className="bg-gray-50 text-gray-700 font-sans">
-            <Header />
-            
-            <main className="container mx-auto px-6 py-16">
-                <Hero />
-                <Navigation />
-                <Contact />
-            </main>
-            
-            {/* Detailed Sections */}
-            <BiologyExperience />
-            <SoftwareEngineering />
+        <Router>
+            <div id="top" className="bg-gray-50 text-gray-700 font-sans">
+                <Header />
+                
+                <Routes>
+                    <Route path="/" element={<Home />} />
+                    <Route path="/biology" element={<BiologyPage />} />
+                    <Route path="/cs" element={<ComputerSciencePage />} />
+                </Routes>
 
-            <Footer />
-        </div>
+                <Footer />
+            </div>
+        </Router>
     );
 }
 

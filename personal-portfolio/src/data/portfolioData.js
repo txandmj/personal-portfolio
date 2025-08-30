@@ -10,7 +10,7 @@ export const portfolioData = {
     publications: [
         {
             title: "Discovery of Cell Number-Interstitial Fluid Volume (CIF) Ratio Reveals Secretory Autophagy Pathway to Supply eHsp90α for Wound Healing",
-            authors: "Chang, C., Tang, X., et al.",
+            authors: "Tang, X., Chang, C., et al.",
             year: "2024",
             journal: "Cells",
             link: "https://www.mdpi.com/2073-4409/13/15/1280"
@@ -23,21 +23,93 @@ export const portfolioData = {
             link: "https://www.sciencedirect.com/science/article/pii/S1355814524001135"
         },
         {
-            title: "The Distinct Assignments for Hsp90α and Hsp90β: More Than Skin Deep. Cells.",
+            title: "Novel readthrough agent suppresses nonsense mutations and restores functional type VII collagen and laminin 332 in epidermolysis bullosa",
+            authors: "Levian, B., Hou, YP., et al.",
+            year: "2024",
+            journal: "Molecular Therapy Nucleic Acids",
+            link: "https://www.cell.com/molecular-therapy-family/nucleic-acids/fulltext/S2162-2531(24)00221-X?uuid=uuid%3Ae5f83d1e-9728-4922-82f0-bd9010d13630"
+        },
+        {
+            title: "The Distinct Assignments for Hsp90α and Hsp90β: More Than Skin Deep.",
             authors: "Chang, C., Tang, X., et al.",
             year: "2023",
             journal: "Cells",
             link: "https://www.mdpi.com/2073-4409/12/12/1568"
-        }
+        },
+        {
+            title: "A Modified Differential Centrifugation Protocol for Isolation and Quantitation of Extracellular Heat Shock Protein 90 (eHsp90)",
+            authors: "Chang, C., Tang, X., et al.",
+            year: "2023",
+            journal: "Chaperones. Methods in Molecular Biology",
+            link: "https://link.springer.com/protocol/10.1007/978-1-0716-3342-7_19"
+        },
+        {
+            title: "Heterogeneous Responses and Isoform Compensation the Dim Therapeutic Window of Hsp90 ATP-Binding Inhibitors in Cancer.",
+            authors: "Tang, X., Chang, C., et al.",
+            year: "2022",
+            journal: "Molecular and Cellular Biology",
+            link: "https://pmc.ncbi.nlm.nih.gov/articles/PMC8852742/"
+        },
+        {
+            title: "LRP-1 receptor combines EGFR signalling and eHsp90α autocrine to support constitutive breast cancer cell motility in absence of blood supply.",
+            authors: "Tang X, Chang C, et al.",
+            year: "2022",
+            journal: "Cancer Gene Ther",
+            link: "https://www.nature.com/articles/s41598-022-16161-y"
+        },
+        {
+            title: "Heat shock protein-90alpha (Hsp90α) stabilizes hypoxia-inducible factor-1α (HIF-1α) in support of spermatogenesis and tumorigenesis.",
+            authors: "Tang X, Chang C, et al.",
+            year: "2021",
+            journal: "Scientific Reports",
+            link: "https://pubmed.ncbi.nlm.nih.gov/33664459/"
+        },
+        {
+            title: "Wound Healing Driver Gene and Therapeutic Development: Political and Scientific Hurdles.",
+            authors: "Tang X, Chang C, et al.",
+            year: "2021",
+            journal: "Advances in Wound Care",
+            link: "https://pubmed.ncbi.nlm.nih.gov/32966158/"
+        },
+        {
+            title: "Tumour-Secreted Hsp90α on External Surface of Exosomes Mediates Tumour - Stromal Cell Communication via Autocrine and Paracrine Mechanisms.",
+            authors: "Tang X, Chang C, et al.",
+            year: "2019",
+            journal: "Scientific Reports",
+            link: "https://pubmed.ncbi.nlm.nih.gov/31641193/"
+        },
+        {
+            title: "After Conventional Wisdom Has Failed, What Drives Wound Healing?",
+            authors: "Lincoln, V., Tang, X., et al.",
+            year: "2019",
+            journal: "EMJ",
+            link: "https://pdfs.semanticscholar.org/fab5/06503fee536fc0179d3b5fc829fce4fc2991.pdf"
+        },
+        {
+            title: "Extracellular HSP90α Versus Intracellular HSP90β in Wound Healing and Cancer.",
+            authors: "Lincoln, V., Tang, X., et al.",
+            year: "2019",
+            journal: "Heat Shock Proteins in Signaling Pathways",
+            link: "https://link.springer.com/chapter/10.1007/978-3-030-03952-3_15"
+        },
     ],
 
     techniques: [
         { name: "CRISPR-Cas9", icon: "dna" },
+        { name: "Exosome isolation", icon: "bubble" }, 
+        { name: "Lentivirus infection", icon: "virus" }, 
+        { name: "H&E / IHC Staining", icon: "palette" },        // palette/brush = staining
+        { name: "Animal Experiment", icon: "rabbit" }, 
+        { name: "Skin equivalent", icon: "skin" },          
+        { name: "(Stem) Cell culture", icon: "cell" },
+        { name: "Data analysis", icon: "bar-chart" },          
+        { name: "Protein Purification", icon: "filter" },       // filter = purification
+        { name: "ELISA", icon: "beaker" },                      // beaker = assay/plate
+        { name: "Immunoprecipitation (IP)", icon: "link" },
         { name: "Confocal Microscopy", icon: "microscope" },
         { name: "Flow Cytometry", icon: "scatter-chart" },
         { name: "Western Blot", icon: "test-tubes" },
-        { name: "RNA-Sequencing", icon: "file-text" },
-        { name: "PCR & qPCR", icon: "pipette" }
+        { name: "PCR & qPCR", icon: "pipette" },
     ],
 
     projects: [
