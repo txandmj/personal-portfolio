@@ -114,25 +114,22 @@ export const portfolioData = {
 
     projects: [
         {
-            title: "BioDataViz",
-            description: "An interactive web application for visualizing complex biological datasets.",
-            image: "https://placehold.co/600x400/E2E8F0/4A5568?text=Project+Screenshot",
-            technologies: ["React", "D3.js", "Python", "Flask"],
-            link: "#"
+            title: "Hypertension Educational Tool",
+            description: "An interactive web application for educating users about hypertension, featuring interactive visualizations and educational content.",
+            image: "https://placehold.co/600x400/E2E8F0/4A5568?text=Hypertension+Tool",
+            technologies: ["React", "JavaScript", "CSS", "HTML"],
+            link: "https://github.com/yoasaaa/hypertension-educational-tool",
+            demo: "https://hypertension-educational-tool.web.app",
+            video: "https://www.youtube.com/watch?v=xk4B3MkzSzc"
         },
         {
-            title: "Sequence Analysis Pipeline",
-            description: "A command-line tool to automate DNA sequence alignment and analysis.",
-            image: "https://placehold.co/600x400/E2E8F0/4A5568?text=Project+Screenshot",
-            technologies: ["Python", "Biopython", "Snakemake"],
-            link: "#"
-        },
-        {
-            title: "Lab Inventory Manager",
-            description: "A full-stack web app to track lab reagents and supplies.",
-            image: "https://placehold.co/600x400/E2E8F0/4A5568?text=Project+Screenshot",
-            technologies: ["Vue.js", "Node.js", "PostgreSQL"],
-            link: "#"
+            title: "Pathology AI Classification",
+            description: "Advanced machine learning system for lymph node metastasis classification using deep learning + ML hybrid approach. Achieved 0.832 AUC with clinical-grade performance.",
+            image: "https://placehold.co/600x400/E2E8F0/4A5568?text=Pathology+AI",
+            technologies: ["Python", "PyTorch", "scikit-learn", "ResNet-50", "OpenCV"],
+            link: "https://github.com/txandmj/pathology-classification/tree/main",
+            demo: "https://txandmj.github.io/pathology-classification-showcase/",
+            research: true
         }
     ],
 

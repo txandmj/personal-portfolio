@@ -14,7 +14,12 @@ const SoftwareEngineering = () => {
                 </h3>
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {portfolioData.projects.map((project, index) => (
-                        <div key={index} className="bg-gray-50 rounded-lg shadow-md overflow-hidden group transform hover:-translate-y-2 transition-transform duration-300">
+                        <div key={index} className={`bg-gray-50 rounded-lg shadow-md overflow-hidden group transform hover:-translate-y-2 transition-transform duration-300 ${project.research ? 'border-2 border-purple-200' : ''}`}>
+                            {project.research && (
+                                <div className="bg-purple-100 text-purple-800 text-xs font-medium px-3 py-1 text-center">
+                                    🔬 Research Project
+                                </div>
+                            )}
                             <img src={project.image} alt={project.title} className="w-full h-48 object-cover" />
                             <div className="p-6">
                                 <h4 className="font-bold text-lg text-gray-900 mb-2">{project.title}</h4>
@@ -23,13 +28,34 @@ const SoftwareEngineering = () => {
                                     {project.technologies.map((tech, techIndex) => (
                                         <span 
                                             key={techIndex} 
-                                            className="bg-indigo-100 text-indigo-800 text-xs font-medium px-2.5 py-0.5 rounded-full"
+                                            className={`text-xs font-medium px-2.5 py-0.5 rounded-full ${
+                                                project.research 
+                                                    ? 'bg-purple-100 text-purple-800' 
+                                                    : 'bg-indigo-100 text-indigo-800'
+                                            }`}
                                         >
                                             {tech}
                                         </span>
                                     ))}
                                 </div>
-                                <a href={project.link} className="text-indigo-600 font-semibold hover:underline">View on GitHub &rarr;</a>
+                                <div className="space-y-2">
+                                    <a href={project.link} className="block text-indigo-600 font-semibold hover:underline text-sm">
+                                        <Icon name="github" className="w-4 h-4 inline mr-1" />
+                                        View Code
+                                    </a>
+                                    {project.demo && (
+                                        <a href={project.demo} target="_blank" rel="noopener noreferrer" className="block text-green-600 font-semibold hover:underline text-sm">
+                                            <Icon name="external-link" className="w-4 h-4 inline mr-1" />
+                                            {project.research ? 'Research Showcase' : 'Live Demo'}
+                                        </a>
+                                    )}
+                                    {project.video && (
+                                        <a href={project.video} target="_blank" rel="noopener noreferrer" className="block text-red-600 font-semibold hover:underline text-sm">
+                                            <Icon name="play" className="w-4 h-4 inline mr-1" />
+                                            Watch Demo
+                                        </a>
+                                    )}
+                                </div>
                             </div>
                         </div>
                     ))}
