@@ -55,7 +55,7 @@ const Navigation = () => {
                             </div>
                             <div className="flex items-center text-sm text-gray-500">
                                 <Icon name="cpu" className="w-4 h-4 mr-4 text-indigo-500" />
-                                <span>8 Skills</span>
+                                <span>21 Skills</span>
                             </div>
                         </div>
                         <Link 

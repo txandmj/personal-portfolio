@@ -4,7 +4,11 @@ export const portfolioData = {
         title: "Bridging Biology & Code",
         description: "A scientist and developer passionate about leveraging technology to solve complex biological problems. From wet lab to web app, I build innovative solutions.",
         photo: "https://placehold.co/400x400/E2E8F0/4A5568?text=Your+Photo",
-        email: "tangx10@uci.edu"
+        email: "tangxin531@gmail.com",
+        resume: {
+            label: "Download Resume",
+            link: "/Xin_Tang_Resume.pdf" // place the file in public/ as Xin_Tang_Resume.pdf
+        }
     },
 
     publications: [
@@ -134,8 +138,8 @@ export const portfolioData = {
     ],
 
     skills: [
-        "Python", "JavaScript", "React", "Node.js",
-        "SQL", "Docker", "AWS", "Git & GitHub"
+        "C++", "Java", "SQL", "TypeScript", "C#", "Python", "JavaScript", "React", "Node.js",
+        "HTML", "CSS", "Docker","Firebase", "PyTorch", "Scikit-learn", "Pandas", "Git & GitHub", "OpenCV", "Zookeeper", "Protobuf", "Visual Studio"
     ],
 
     social: [
