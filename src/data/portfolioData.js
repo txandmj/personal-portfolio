@@ -139,8 +139,8 @@ export const portfolioData = {
     ],
 
     social: [
-        { name: "mail", link: "mailto:tangx10@uci.edu" },
-        { name: "linkedin", link: "#" },
-        { name: "github", link: "#" }
+        { name: "mail", link: "mailto:tangxin531@gmail.com" },
+        { name: "linkedin", link: "https://www.linkedin.com/in/xintang730/" },
+        { name: "github", link: "https://github.com/txandmj" }
     ]
 };
