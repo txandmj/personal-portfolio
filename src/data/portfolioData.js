@@ -7,7 +7,7 @@ export const portfolioData = {
         email: "tangxin531@gmail.com",
         resume: {
             label: "Download Resume",
-            link: "/Xin_Tang_Resume.pdf" // place the file in public/ as Xin_Tang_Resume.pdf
+            link: "/XinTang_CV_CS.pdf" 
         }
     },
 
@@ -133,6 +133,15 @@ export const portfolioData = {
             technologies: ["Python", "PyTorch", "scikit-learn", "ResNet-50", "OpenCV"],
             link: "https://github.com/txandmj/pathology-classification/tree/main",
             demo: "https://txandmj.github.io/pathology-classification-showcase/",
+            research: true
+        },
+        {
+            title: "Eye-scGPT: Automated Cell Type Annotation Platform",
+            description: "An automated annotation platform optimized for ocular cells",
+            image: "https://placehold.co/600x400/E2E8F0/4A5568?text=Automated+Cell+Annotation",
+            technologies: ["Python", "PyTorch", "FastAPI", "React", "Docker", "PostgreSQL"],
+            link: "https://github.com/txandmj/eye-scgpt-platform",
+            demo: "https://youtu.be/YvX2jjbMJOY",
             research: true
         }
     ],
