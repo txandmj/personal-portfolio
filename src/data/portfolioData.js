@@ -5,10 +5,16 @@ export const portfolioData = {
         description: "A scientist and developer passionate about leveraging technology to solve complex biological problems. From wet lab to web app, I build innovative solutions.",
         photo: "https://placehold.co/400x400/E2E8F0/4A5568?text=Your+Photo",
         email: "tangxin531@gmail.com",
-        resume: {
-            label: "Download Resume",
-            link: "/XinTang_CV_CS.pdf" 
-        }
+        resume: [
+            {
+                label: "Download CS Resume",
+                link: "/XinTang_CV_CS.pdf"
+            },
+            {
+                label: "Download Biology Resume",
+                link: "/XinTang_CV_Bio.pdf"
+            }
+        ]
     },
 
     publications: [
@@ -141,8 +147,7 @@ export const portfolioData = {
             image: "https://placehold.co/600x400/E2E8F0/4A5568?text=Automated+Cell+Annotation",
             technologies: ["Python", "PyTorch", "FastAPI", "React", "Docker", "PostgreSQL"],
             link: "https://github.com/txandmj/eye-scgpt-platform",
-            demo: "https://youtu.be/YvX2jjbMJOY",
-            research: true
+            demo: "https://youtu.be/YvX2jjbMJOY"
         }
     ],
 
