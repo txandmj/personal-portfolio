@@ -51,7 +51,7 @@ const Navigation = () => {
                         <div className="space-y-3 mb-6">
                             <div className="flex items-center text-sm text-gray-500">
                                 <Icon name="code" className="w-4 h-4 mr-4 text-indigo-500" />
-                                <span>2 Projects</span>
+                                <span>3 Projects</span>
                             </div>
                             <div className="flex items-center text-sm text-gray-500">
                                 <Icon name="cpu" className="w-4 h-4 mr-4 text-indigo-500" />
