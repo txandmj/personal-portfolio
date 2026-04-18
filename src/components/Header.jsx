@@ -33,7 +33,7 @@ const Header = () => {
                     >
                         Software Engineering
                     </Link>
-                    <a href="#contact" className="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition duration-300">Contact</a>
+                    <a href="mailto:tangx10@uci.edu" className="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700 transition duration-300">Contact</a>
                 </div>
                 <button onClick={toggleMenu} className="md:hidden">
                     <Icon name="menu" className="w-6 h-6" />
@@ -45,7 +45,7 @@ const Header = () => {
                     <Link to="/" onClick={closeMenu} className={`block py-2 ${isActive('/') ? 'text-indigo-600' : 'text-gray-600 hover:text-indigo-600'}`}>Home</Link>
                     <Link to="/biology" onClick={closeMenu} className={`block py-2 ${isActive('/biology') ? 'text-indigo-600' : 'text-gray-600 hover:text-indigo-600'}`}>Biology Experience</Link>
                     <Link to="/cs" onClick={closeMenu} className={`block py-2 ${isActive('/cs') ? 'text-indigo-600' : 'text-gray-600 hover:text-indigo-600'}`}>Software Engineering</Link>
-                    <a href="#contact" onClick={closeMenu} className="block py-2 mt-2 bg-indigo-600 text-white text-center rounded-md hover:bg-indigo-700">Contact</a>
+                    <a href="mailto:tangx10@uci.edu" onClick={closeMenu} className="block py-2 mt-2 bg-indigo-600 text-white text-center rounded-md hover:bg-indigo-700">Contact</a>
                 </div>
             )}
         </header>
