@@ -3,7 +3,7 @@ export const portfolioData = {
         name: "Xin Tang",
         title: "Bridging Biology & Code",
         description: "A scientist and developer passionate about leveraging technology to solve complex biological problems. From wet lab to web app, I build innovative solutions.",
-        photo: "https://placehold.co/400x400/E2E8F0/4A5568?text=Your+Photo",
+        photo: "/photo.jpg",
         email: "tangxin531@gmail.com",
         resume: [
             {
@@ -142,12 +142,21 @@ export const portfolioData = {
             research: true
         },
         {
+            title: "Pacey — AI Pacemaker Printout Reader",
+            description: "Pacey extracts key pre-surgery clinical fields from pacemaker interrogation reports (images or PDFs) using OCR — replacing manual chart interpretation with structured, instant output. Built at the UCI MSWE Fall 2024 Hackathon in collaboration with UCI Medical Center physicians.",
+            image: "https://placehold.co/600x400/E2E8F0/4A5568?text=Pacey",
+            technologies: ["Python", "FastAPI", "YOLOv8", "OpenCV", "React", "WebSocket"],
+            link: "https://github.com/txandmj/pacey",
+            demo: "http://192.168.98.25:8005/camera",
+            video: "https://www.youtube.com/watch?v=eQ3UB23fN90"
+        },
+        {
             title: "Eye-scGPT: Automated Cell Type Annotation Platform",
             description: "An automated annotation platform optimized for ocular cells",
             image: "https://placehold.co/600x400/E2E8F0/4A5568?text=Automated+Cell+Annotation",
             technologies: ["Python", "PyTorch", "FastAPI", "React", "Docker", "PostgreSQL"],
             link: "https://github.com/txandmj/eye-scgpt-platform",
-            demo: "https://youtu.be/YvX2jjbMJOY"
+            video: "https://www.youtube.com/watch?v=NfV4Po3nZf0"
         }
     ],
 

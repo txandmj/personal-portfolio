@@ -9,6 +9,9 @@ const Contact = () => {
             <p className="max-w-2xl mx-auto mb-8 text-lg">
                 I'm always open to discussing new projects, research collaborations, or opportunities. Feel free to reach out!
             </p>
+            <div className="flex flex-col items-center gap-2 mb-6">
+                <a href="mailto:tangx10@uci.edu" className="text-indigo-600 hover:underline">tangx10@uci.edu</a>
+            </div>
             <div className="flex justify-center items-center space-x-6">
                 {portfolioData.social.map((social, index) => (
                     <a 

@@ -44,10 +44,10 @@ const Hero = () => {
                 )}
             </div>
             <div className="md:w-1/2 flex justify-center">
-                <img 
-                    src={portfolioData.personal.photo} 
-                    alt={portfolioData.personal.name} 
-                    className="rounded-full shadow-2xl w-64 h-64 md:w-80 md:h-80 object-cover" 
+                <img
+                    src={resolveHref(portfolioData.personal.photo)}
+                    alt={portfolioData.personal.name}
+                    className="rounded-full shadow-2xl w-64 h-64 md:w-80 md:h-80 object-cover"
                 />
             </div>
         </section>
