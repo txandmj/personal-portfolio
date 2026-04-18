@@ -124,6 +124,23 @@ export const portfolioData = {
 
     projects: [
         {
+            title: "Eye-scGPT: Automated Cell Type Annotation Platform",
+            description: "An automated annotation platform optimized for ocular cells",
+            image: "https://placehold.co/600x400/E2E8F0/4A5568?text=Automated+Cell+Annotation",
+            technologies: ["Python", "PyTorch", "FastAPI", "React", "Docker", "PostgreSQL"],
+            link: "https://github.com/txandmj/eye-scgpt-platform",
+            video: "https://www.youtube.com/watch?v=NfV4Po3nZf0"
+        },
+        {
+            title: "Pacey — AI Pacemaker Printout Reader",
+            description: "Pacey extracts key pre-surgery clinical fields from pacemaker interrogation reports (images or PDFs) using OCR — replacing manual chart interpretation with structured, instant output. Built at the UCI MSWE Fall 2024 Hackathon in collaboration with UCI Medical Center physicians.",
+            image: "https://placehold.co/600x400/E2E8F0/4A5568?text=Pacey",
+            technologies: ["Python", "FastAPI", "YOLOv8", "OpenCV", "React", "WebSocket"],
+            link: "https://github.com/txandmj/pacey",
+            demo: "http://192.168.98.25:8005/camera",
+            video: "https://www.youtube.com/watch?v=eQ3UB23fN90"
+        },
+        {
             title: "Hypertension Educational Tool",
             description: "An interactive web application for educating users about hypertension, featuring interactive visualizations and educational content.",
             image: "https://placehold.co/600x400/E2E8F0/4A5568?text=Hypertension+Tool",
@@ -140,23 +157,6 @@ export const portfolioData = {
             link: "https://github.com/txandmj/pathology-classification/tree/main",
             demo: "https://txandmj.github.io/pathology-classification-showcase/",
             research: true
-        },
-        {
-            title: "Pacey — AI Pacemaker Printout Reader",
-            description: "Pacey extracts key pre-surgery clinical fields from pacemaker interrogation reports (images or PDFs) using OCR — replacing manual chart interpretation with structured, instant output. Built at the UCI MSWE Fall 2024 Hackathon in collaboration with UCI Medical Center physicians.",
-            image: "https://placehold.co/600x400/E2E8F0/4A5568?text=Pacey",
-            technologies: ["Python", "FastAPI", "YOLOv8", "OpenCV", "React", "WebSocket"],
-            link: "https://github.com/txandmj/pacey",
-            demo: "http://192.168.98.25:8005/camera",
-            video: "https://www.youtube.com/watch?v=eQ3UB23fN90"
-        },
-        {
-            title: "Eye-scGPT: Automated Cell Type Annotation Platform",
-            description: "An automated annotation platform optimized for ocular cells",
-            image: "https://placehold.co/600x400/E2E8F0/4A5568?text=Automated+Cell+Annotation",
-            technologies: ["Python", "PyTorch", "FastAPI", "React", "Docker", "PostgreSQL"],
-            link: "https://github.com/txandmj/eye-scgpt-platform",
-            video: "https://www.youtube.com/watch?v=NfV4Po3nZf0"
         }
     ],
 

@@ -20,7 +20,13 @@ const SoftwareEngineering = () => {
                                     🔬 Research Project
                                 </div>
                             )}
-                            <img src={project.image} alt={project.title} className="w-full h-48 object-cover" />
+                            {project.image.includes('placehold.co') ? (
+                                <div className="w-full h-48 bg-indigo-100 flex items-center justify-center">
+                                    <span className="text-indigo-700 font-semibold text-base text-center px-4">{project.title}</span>
+                                </div>
+                            ) : (
+                                <img src={project.image} alt={project.title} className="w-full h-48 object-cover" />
+                            )}
                             <div className="p-6">
                                 <h4 className="font-bold text-lg text-gray-900 mb-2">{project.title}</h4>
                                 <p className="text-gray-600 mb-4 text-sm">{project.description}</p>
